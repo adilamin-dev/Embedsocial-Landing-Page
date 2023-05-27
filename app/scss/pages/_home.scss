@@ -1,0 +1,78 @@
+body{
+    header{
+        nav{
+            padding-top: 0.4em;
+            padding-bottom: 0.4em;
+            // box-shadow: 0px 4px 8px #0000001f;
+            .nav-wraper{
+                display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+                .menu{
+                    ul{
+                        list-style: none;
+                        display: block;
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+                        align-items: center;
+                        li{
+                            margin: 1rem;
+                        }
+                    }
+                }
+                .cta{
+                    .cta-btn1{
+                        height: 50px;
+                        width: 133px;
+                        background-color: $lite-color;
+                        outline-color: none;
+                        border-style: none;
+                        margin: 2px;
+                        border-radius: 4px;
+                        transition: all 0.2s ease-in;
+                    }
+                    .cta-btn1:hover{
+                        box-shadow: 0px 1px 3px #00000030;
+                    }
+                    .cta-btn2{
+                        color: white;
+                        height: 50px;
+                        width: 133px;
+                        background-color: $second-color;
+                        outline-color: none;
+                        border-style: none;
+                        margin: 2px;
+                        border-radius: 4px;
+                        transition: all 0.2s ease-in;
+                    }
+                    .cta-btn2:hover{
+                        box-shadow: 0px 1px 3px #00000030;
+                    }
+                }
+            }
+        }
+        .hero-section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 4em;
+            padding-bottom: 0.4em;
+            .hero-content{
+                .search-bar{
+                    height: 50px;
+                    width: 406px;
+                    background-color: $second-color;
+                    border-radius: 5px;
+                    .h-mail-inp{
+                        height: 50px;
+                        width: 250px;
+                        border: 4px solid $second-color;
+                        border-radius:  5px 0px 0px 5px;
+                    }
+                }
+            }
+        }
+    }
+}
